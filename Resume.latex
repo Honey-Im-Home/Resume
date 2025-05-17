@@ -1,0 +1,458 @@
+
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+% ==================================
+
+% Add vertical space to avoid overlapping text
+\vspace{3.5cm}
+
+%----------HEADING----------
+
+
+
+
+\begin{center}
+    {\Huge \scshape Alimun Al Mikdad} \\ \vspace{1pt}
+    House#28, Road#07, Sector#13, Uttara, Dhaka-1230. \\
+    \\ \vspace{1pt}
+    \Large \href{https://mikdadportfolio.site/}{\textbf{\texttt{Portfolio Website}}} \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+088 1959599071} ~} \href{mailto:mikdaddx@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{mikdaddx@gmail.com}} ~
+    \href{https://www.linkedin.com/in/alimun-mikdad-818361213/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin}}  ~
+    \href{https://github.com/Honey-Im-Home}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+    \href{https://www.facebook.com/mikdad.dx}{\raisebox{-0.2\height}\faFacebook\ \underline{Facebook}} ~
+    \href{https://www.instagram.com/miki_it_is/}{\raisebox{-0.2\height}\faInstagram\ \underline{Instagram}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------Professional Summary--------
+\section{Professional Summary}
+  \resumeSubHeadingListStart
+      
+      Results-driven Data Analyst with a Bachelor's in Computer Science and Engineering. Proficient in utilizing advanced analytical tools and programming languages such as Python and SQL to derive data-driven insights. Eager to leverage machine learning expertise and problem-solving skills to contribute effectively to strategic decision-making in a dynamic work environment. Adept at developing solutions for complex datasets and translating findings into actionable recommendations.  
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Milestone College}{2016 -- 2018}
+      {SSC - \textbf{CGPA} - \textbf{5.00}}{Dhaka, Bangladesh}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rajuk Uttara Model College}{2018 -- 2020}
+      {HSC - \textbf{CGPA} - \textbf{5.00}}{Dhaka, Bangladesh}
+  \resumeSubHeadingListEnd
+ 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Brac University}{2021 -- 2025}
+      {CSE- \textbf{CGPA} - \textbf{3.15}}   {Dhaka, Bangladesh}
+  \resumeSubHeadingListEnd
+
+
+%------RELEVANT COURSEWORK-------
+\section{COURSEWORK / SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Data Structures \& Algorithms
+                \item Operating Systems
+                \item Network Security
+                \item Database Management System (DBMS)
+                \item Machine Learning
+               \item Artificial Intelligence
+                \item OOPS Concept
+                \item Web Development
+                \item Computer Interfacing
+                \item Robotics
+                \item Excel
+                \item Leadership and Communication 
+                \item Mathematica
+                \item Proteus 8
+                \item LTspice
+                \item CSV
+                \item Neural Network
+                \item Computer Vision
+                \item Compiler Design (Lex and Yacc)
+                \item OpenGL
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Stock_Market_Prediction-using-LSTM}{\textbf{\large{\underline{Stock Market Prediction using LSTM}}} \href{https://github.com/Honey-Im-Home/Stock_Market_Prediction-using-LSTM}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Pandas,Numpy,Matplotlib,Scikit-learn, Tensorflow,Pydot graphviz)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+       \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Retails_Sales_Analysis}{\textbf{\large{\underline{Retails Sales Analysis}}} \href{https://github.com/Honey-Im-Home/Retails_Sales_Analysis}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(SQL (PostgreSQL dialect), Excel/CSV (for external data load if needed), PostgreSQL-compatible database platform)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+       \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Credit-Risk-Analysis}{\textbf{\large{\underline{Credit-Risk-Analysis}}} \href{https://github.com/Honey-Im-Home/Credit-Risk-Analysis}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Python, Jupyter Notebook, Pandas, NumPy, Scikit-learn: Machine learning algorithms, Matplotlib/Seaborn, Imbalanced-learn)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+       \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Monday-Coffee-business-Data-Analysis-Project}{\textbf{\large{\underline{Monday-Coffee-business-Data-Analysis-Project}}} \href{https://github.com/Honey-Im-Home/Monday-Coffee-business-Data-Analysis-Project}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Python, SQL, Pandas, Numpy, Matplotlib, Scikit-learn, Plotly,MySQL or PostgreSQL,CSV/Excel Files,Tableau/Power BI,Git \& GitHub)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+    
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Ecommerce-Sales-Analysis}{\textbf{\large{\underline{Ecommerce-Sales-Analysis}}} \href{https://github.com/Honey-Im-Home/Ecommerce-Sales-Analysis}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Excel)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Online-movie-ticket-booking-system}{\textbf{\large{\underline{Online movie ticket booking system}}} \href{https://github.com/Honey-Im-Home/Online-movie-ticket-booking-system}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(HTML/CSS/JavaScript,Bootstrap,React.js/Angular,Node.js + Express.js,MySQL/PostgreSQL,JWT (JSON Web Tokens),Stripe/PayPal API,Git/GitHub)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Money-Heist}{\textbf{\large{\underline{Money Heist Game}}} \href{https://github.com/Honey-Im-Home/Money-Heist}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Python, OpenGL)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Air-Ticket-Price-Prediction}{\textbf{\large{\underline{Air-Ticket-Price-Prediction}}} \href{https://github.com/Honey-Im-Home/Air-Ticket-Price-Prediction}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Python, SQL, Pandas, Numpy, Matplotlib, Scikit-learn, XGBoost/LightGBM,One-hot Encoding,Feature Engineering,Data Cleaning)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Covid-portfolio-project}{\textbf{\large{\underline{Ecommerce-Sales-Analysis}}} \href{https://github.com/Honey-Im-Home/Covid-portfolio-project}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Microsoft SQL Server,T-SQL,SQL Server Management Studio)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Sign_board_detection-using-YOLOv8}{\textbf{\large{\underline{Sign board detection using YOLOv8}}} \href{https://github.com/Honey-Im-Home/Sign_board_detection-using-YOLOv8}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Python, YOLOv8, PyTorch, Ultralytics, OpenCV, Conda/venv)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Autism-Prediction-using-Machine-Learning}{\textbf{\large{\underline{Autism-Prediction-using-Machine-Learning}}} \href{https://github.com/Honey-Im-Home/Autism-Prediction-using-Machine-Learning}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Python, Pandas, Numpy, Matplotlib, Scikit-learn, Random Forest, Logistic Regression, Support Vector Machines (SVM), Gradient Boosting (XGBoost/LightGBM), Neural Networks)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Plant-disease-detection-using-Yolov11}{\textbf{\large{\underline{Ecommerce-Sales-Analysis}}} \href{https://github.com/Honey-Im-Home/Plant-disease-detection-using-Yolov11}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Python, YOLOv11, PyTorch, Ultralytics, OpenCV, Conda/venv)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Nashville-Housing-Data-for-Data-Cleaning}{\textbf{\large{\underline{Ecommerce-Sales-Analysis}}} \href{https://github.com/Honey-Im-Home/Nashville-Housing-Data-for-Data-Cleaning}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Microsoft SQL Server,T-SQL,SQL Server Management Studio)}.}}
+
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Honey-Im-Home/Heart-disease-prediction}{\textbf{\large{\underline{Heart-disease-prediction}}} \href{https://github.com/Honey-Im-Home/Heart-disease-prediction}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{}}}
+          
+          \resumeItemListStart
+            \resumeItem{\normalsize{Technology Stack Used :\textbf{(Python, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, K-Nearest Neighbors (KNN))}.}}
+
+          \resumeItemListEnd
+          
+         
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, SQL, PostgreSQL, MySQL, HTML, JavaScript, CSS}} \\
+     \textbf{\normalsize{Data Analysis Tools:} }{ \normalsize{Excel, PowerBI or Tableau, Machine Learning Libraries (NumPy, TensorFlow, Pandas, scikit-learn, Matplotlib)}} \\
+     \textbf{\normalsize{Database Management:} }{ \normalsize{SQL Querying, Data Transformation, Data Visualization}} \\
+     \textbf{\normalsize{Web Development:}}{ \normalsize{Front-end design with HTML, CSS, JavaScript}} \\
+     \textbf{\normalsize{Machine Learning and AI:}}{\normalsize{ Predictive analytics, Computer vision using YOLO}} \\
+     \textbf{\normalsize{Problem Solving:}}{ \normalsize{Analytical mindset with a focus on detail-oriented solutions}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    
+\resumeSubHeadingListStart
+    \resumeSubheading{Brac University}{2024 -- 2025}{\underline{Researcher}}{Merul badda, Dhaka}
+        \resumeItemListStart
+            \resumeItem{\normalsize{Conducted advanced research and authored technical papers using LaTeX, focusing on the integration of machine learning models with embedded systems. Successfully implemented and deployed ML algorithms on an autonomous agricultural robot (Agrobot) prototype, utilizing Arduino and Raspberry Pi for real-time decision-making, sensor data processing, and task automation in precision agriculture.}}
+            \resumeItem{\normalsize{Thesis Paper. \href{https://github.com/Honey-Im-Home/Thesis-Report/tree/main}{\raisebox{-0.1\height}\faExternalLink }}}
+        \resumeItemListEnd
+
+    % Add Weight Lifting
+    \resumeSubheading{Personal Fitness}{--}{\underline{Weight Lifting Enthusiast}}{}
+        \resumeItemListStart
+            \resumeItem{\normalsize{Dedicated to strength training for 2+ years. Focus on compound movements (squat, deadlift, bench press) with a personal best of 350lbs deadlift.}}
+            \resumeItem{\normalsize{Advocate for disciplined routines, nutrition planning, and mental resilience.}}
+        \resumeItemListEnd
+
+    % Add Art
+    \resumeSubheading{Creative Arts}{--}{\underline{Visual Artist}}{}
+        \resumeItemListStart
+            \resumeItem{\normalsize{Skilled in charcoal sketching, oil painting, and digital art. Portfolio includes abstract landscapes and portraits.}}
+            \resumeItem{\normalsize{Exhibited work at university art fairs; sold 15+ commissioned pieces.}}
+        \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-11pt}
+ 
+
+
+ 
+ %-----------Professional Development---------------
+\section{Professional Development}
+
+
+$\sbullet[.75] \hspace{0.1cm}$ {Completed academic \& self-directed projects using HTML, CSS, JavaScript, Python, SQL}\hspace{1.6cm}
+
+$\sbullet[.75] \hspace{0.1cm}$ {Practical experience building ML models with TensorFlow, Pandas, NumPy, CNN, and YOLO} \hspace{2.59cm}
+
+$\sbullet[.75] \hspace{0.2cm}$ {Authored research papers in LaTeX on machine learning and robotics integration}\hspace{2.59cm}\\
+
+
+$\sbullet[.75] \hspace{0.2cm}${Python authored research papers in LaTeX on machine learning and robotics integrationfor Data Science - XIE} \hspace{1cm}
+$\sbullet[.75] \hspace{0.1cm}$ {{Developed and deployed embedded systems projects using Arduino and Raspberry Pi}} \hspace{2.6cm}
+
+$\sbullet[.75] \hspace{0.2cm}${Built and tested an autonomous agrobot prototype for smart agriculture}\hspace{2.59cm} \\
+
+
+$\sbullet[.75] \hspace{0.2cm}${Hands-on experience with data analysis using Excel, SQL queries (Joins, CTEs, Window Functions)}
+$\sbullet[.75] \hspace{0.2cm}${Developed and deployed Money Heist game using OpenGL (Open Graphics Library)}
+
+
+
+\end{document}
+
